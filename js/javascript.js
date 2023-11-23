@@ -17,3 +17,12 @@ function showBox() {
         
     });
 }
+
+function scroollmouse(){
+    if(window.scrollBy(0, window.innerHeight))
+    {
+    }
+    else if(window.scrollBy(0, -window.innerHeight))
+    {
+    }
+}
